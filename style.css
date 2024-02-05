@@ -1,0 +1,32 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+
+body{
+    background-color: gray;
+}
+.main-content{ /* main containter , the resume will in it*/
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    /* background-color: white; */
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* get 7 columns on main container */
+
+}
+
+/* left side of the resume */
+.left-section{
+    grid-column: 1 / 3;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
