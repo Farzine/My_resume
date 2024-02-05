@@ -41,7 +41,7 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .left-content{
-   padding: 1rem 2rem; 
+   padding: 2rem 2rem; 
 }
 .profile{
     width: 100%;
@@ -83,7 +83,8 @@ body{
     padding: 1rem 0;
 }
 .contact-info ul{
-    padding: 0.3rem 0;
+    padding-top: 0.3rem 0;
+    
 
 }
 .contact-info ul li{
@@ -91,13 +92,99 @@ body{
     align-items: center;
     margin: 0.5rem 0;
     padding: 0.5rem 0;
+    
 }
 .contact-info ul li i{
-    padding-right: 1rem;
+    padding-right: 1.5rem;
     font-size: 1.5rem;
     color: black;
     margin-right: 0.5rem;
     color: rgba(186, 186, 4, 0.826);
+    
 }
-
-
+.skills-section ul{
+    padding-top: 0.3rem 0;
+}
+.skills-section ul li{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    padding: 0.1rem 0;
+}
+.progress-bar{
+    width: 100%;
+    height: 0.4rem;
+    background-color: rgb(242, 239, 239);
+    border-radius: 5px;
+    /* margin: 0 1rem; */
+    position: relative;
+}
+.progress{
+    /* width: 80%; */
+    height: 100%;
+    background-color: rgba(186, 186, 4, 0.826);
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    
+}
+.c-progress{
+    width: 70%;
+}
+.java-progress{
+    width: 60%;
+}
+.js-progress{
+    width: 50%;
+}
+.html-progress{
+    width: 70%;
+}
+.css-progress{
+    width: 60%;
+}
+.python-progress{
+    width: 30%;
+}
+.flutter-progress{
+    width: 60%;
+}
+.figma-progress{
+    width: 70%;
+}
+.unity-progress{
+    width: 30%;
+}
+.skill-tittle{
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+.sub-title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1rem 0;
+}
+.sub-para{
+    color: rgb(45, 44, 44);
+    padding: 0.2rem 0;
+}
+.references-section li{
+    color:black;
+    padding: 0.2rem 0;
+}
+.references-section li i{
+    padding-right: 0.5rem;
+    font-size: 1rem;
+    color: black;
+    margin-right: 0.5rem;
+    color: rgba(186, 186, 4, 0.826);
+}
