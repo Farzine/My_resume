@@ -208,7 +208,7 @@ body{
     bottom: -5px;
     width: 60%;
     height: 2px;top: 50%;
-    background-color: black;
+    background-color: rgb(211, 208, 208);
     transform: translateY(-50%);
     border-radius: 10px;
 }
@@ -240,7 +240,7 @@ body{
     color: rgb(71, 67, 67);
     text-transform: uppercase;
     /* letter-spacing: 1px; */
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     
 }
 .tl-content{
@@ -253,7 +253,7 @@ body{
 .tl-title-2::before{
     content: "";
     position: absolute;
-    left: 17px;
+    left: 0px;
     top: 12%;
     width: 0.7rem;
     height: 0.7rem;
