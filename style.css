@@ -239,6 +239,26 @@ body{
     font-weight: 700;
     color: rgb(71, 67, 67);
     text-transform: uppercase;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     padding: 1rem 0;
+    
+}
+.tl-content{
+    border-left: 1px solid rgb(211, 208, 208);
+    position: relative;
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+    
+}
+.tl-title-2::before{
+    content: "";
+    position: absolute;
+    left: 17px;
+    top: 12%;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: rgb(71, 67, 67);
+    transform: translateX(-50%);
+    border-radius: 50%;
+ 
 }
