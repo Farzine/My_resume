@@ -206,8 +206,8 @@ body{
     position: absolute;
     right: 0;
     bottom: -5px;
-    width: 60%;
-    height: 2px;top: 50%;
+    width: 80%;
+    height: 1px;top: 50%;
     background-color: rgb(211, 208, 208);
     transform: translateY(-50%);
     border-radius: 10px;
@@ -251,6 +251,59 @@ body{
     
 }
 .tl-title-2::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 12%;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: rgb(71, 67, 67);
+    transform: translateX(-50%);
+    border-radius: 50%;
+ 
+}
+
+
+
+.timeline-project{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    
+}
+.left-tl-content-project{
+    
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+    
+
+}
+.tl-title-project{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(71, 67, 67);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 0.5rem 0;
+
+}
+.tl-title-2-project{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(71, 67, 67);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 0.5rem 0;
+    
+}
+.tl-content-project{
+    border-left: 1px solid rgb(211, 208, 208);
+    position: relative;
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+    
+}
+.tl-title-2-project::before{
     content: "";
     position: absolute;
     left: 0px;
