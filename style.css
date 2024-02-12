@@ -245,10 +245,10 @@ body{
 }
 
 a{
-    color:black;
+    color: rgb(71, 67, 67);
     
 }
-a:hover{
+a:hover{ 
     color: rgba(186, 186, 4, 0.826);
     cursor: pointer;
 }
@@ -382,13 +382,18 @@ a:hover{
  
 }
 .download-resume{
-    text-align: right;
+    text-align: center;
     padding: 2rem 0;
-    font-size: 1.3rem;
-    font-weight: 700;
-    letter-spacing: .5px;
-    margin-right : 2rem;
-    
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color:  rgb(221, 217, 217);
+    background-origin: padding-box;
+    background-clip: padding-box;
+    padding-block: .8rem;
+    padding-inline: 1rem;
+    margin: 1.5rem 0;
+
 }
 
 /* media queries */
@@ -439,6 +444,16 @@ a:hover{
   
     .right-tl-content-project{
         margin-right: 2rem;
+    }
+}
+@media screen and (max-width: 390px){
+  
+    .tl-title-2{
+        font-size: 1rem;
+        font-weight: 700;
+        color: rgb(71, 67, 67);
+        text-transform: uppercase;
+        padding: 0.5rem 0;
     }
 }
 
