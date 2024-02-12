@@ -102,7 +102,8 @@ body{
     display: flex;
     align-items: center;
     margin: 0.5rem 0;
-    padding: 0.5rem 0;
+    padding: 0.2rem 0;
+    font-weight: 600;
     
 }
 .contact-info ul li i{
@@ -113,6 +114,8 @@ body{
     color: rgba(186, 186, 4, 0.826);
     
 }
+
+/* 
 .skills-section ul{
     padding-top: 0.3rem 0;
 }
@@ -129,11 +132,11 @@ body{
     height: 0.4rem;
     background-color: rgb(242, 239, 239);
     border-radius: 5px;
-    /* margin: 0 1rem; */
+  
     position: relative;
 }
 .progress{
-    /* width: 80%; */
+    
     height: 100%;
     background-color: rgba(186, 186, 4, 0.826);
     border-radius: 5px;
@@ -187,6 +190,47 @@ body{
 .sub-para{
     color: rgb(45, 44, 44);
     padding: 0.2rem 0;
+} */
+
+
+/* skills */
+.skills{
+    padding: 1rem 0;
+    
+}
+.headline{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 1rem 0;
+}
+.boldline{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1rem 0;
+    
+}
+.paintext{
+    font-size: .9rem;
+    padding: auto;
+}
+
+/* .languages-section */
+.languages-section ul{
+    padding-top: 0.3rem 0;
+}
+.languages-section ul li{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    padding: 0.1rem 0;
 }
 .references-section li{
     color:black;
@@ -198,6 +242,15 @@ body{
     color: black;
     margin-right: 0.5rem;
     color: rgba(186, 186, 4, 0.826);
+}
+
+ a{
+    color:black;
+    
+}
+a:hover{
+    color: rgba(186, 186, 4, 0.826);
+    cursor: pointer;
 }
 .right-main-content{
     padding: 2rem 2rem;
@@ -298,6 +351,8 @@ body{
     padding: 0.5rem 0;
 
 }
+
+
 .tl-title-2-project{
     font-size: 1rem;
     font-weight: 700;
@@ -325,6 +380,15 @@ body{
     transform: translateX(-50%);
     border-radius: 50%;
  
+}
+.download-resume{
+    text-align: right;
+    padding: 2rem 0;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: .5px;
+    margin-right : 2rem;
+    
 }
 
 /* media queries */
@@ -356,19 +420,25 @@ body{
         grid-template-columns: repeat(1, 1fr);
     }
     .profile img{
-        width: 40%;
+        width: 30%;
     }
 }
 @media screen and (max-width: 700px){
   
     .profile img{
-        width: 60%;
+        width: 50%;
     }
 }
 @media screen and (max-width: 390px){
   
     .name{
         font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 390px){
+  
+    .right-tl-content-project{
+        margin-right: 2rem;
     }
 }
 
