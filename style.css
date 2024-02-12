@@ -13,7 +13,7 @@ body{
     background-color: gray;
 }
 .main-content{ /* main containter , the resume will in it*/
-    min-height: 100vh;
+    min-height: 100%;
     width: 80%;
     margin: 2rem auto;
     /* background-color: white; */
@@ -244,7 +244,7 @@ body{
     color: rgba(186, 186, 4, 0.826);
 }
 
- a{
+a{
     color:black;
     
 }
